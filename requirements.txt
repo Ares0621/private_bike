@@ -1,0 +1,4 @@
+PyQt6>=6.6
+PyQt6-WebEngine>=6.6
+fitparse>=1.2.0
+gpxpy>=1.6.0

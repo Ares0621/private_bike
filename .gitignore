@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 打包产物
+build/
+dist/
+*.zip
+*.spec
+*.log
+
+# 密钥：高德 key 只放本地环境变量或下面的文件，不进仓库
+.env
+.amap_key
+data/amap_key.txt
+
+# 本地数据（含个人骑行记录与行者登录态，禁止入库）
+data/
+rides/
+!sample/
+
+# 临时截图/自检文件
+*_自检截图.png
+_*.png
+_*.txt
